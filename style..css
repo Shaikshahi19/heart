@@ -1,0 +1,49 @@
+body {
+
+    Background-color:#082032;   
+    
+   }
+   
+   *{
+       margin:1;
+       padding:0;
+       
+   }
+   
+   #v {
+       font-size: 295%;
+   }
+   
+   .heart{
+      
+       width:200px;
+       height:900px;
+       background:transparent;
+       margin:40px auto;
+       /*cursor:pointer ;*/
+       text-align:center ;
+       font-size:70px;
+       text-shadow:5px -5px 5px #9370DB;
+   
+   }
+   
+   .heart{
+       max-width:70%;
+       animation:beat 1s infinite;
+   }
+   
+   @keyframes beat{
+       0%{
+           transform:scale(1);
+       }
+       20%{
+           transform:scale(1.1);
+           translateX(5%)
+           translateY(5%);
+       }
+       30%{
+           transform:scale(1.2);
+           translateX(9%)
+           translateY(10%);
+       }
+   }
